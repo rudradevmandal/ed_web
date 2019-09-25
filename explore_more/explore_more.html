@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>explore more</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!------Navigation_Bar-->
+    <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="../index.html"><img src="logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#top">HOME </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#cards">MODULES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../index.html#who">WHO ARE WE?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="../index.html#would">WOULD YOU DONATE?</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="../index.html#do">DO YOU WANT TO GET IN TOUCH?</a>
+                              </li>
+                      </ul>
+                    </div>
+                  </nav>
+    </section>
+<!--banner_section-->
+<section id="banner">
+    <div class="container">            
+        <div class="row">
+            <div class="col-md-12">
+                <p class="promo-title">Teach It Yourself</p>
+                <p>Here are all the modules on physics and maths. Click on the module to start teaching yourself!
+                </p>
+            </div>
+            <!--<div class="col-md-6 back">
+                <img src="background.png" class="img-fluid">
+            </div>-->
+        </div>
+    </div>
+</section>
+<!--Transition-->
+<section id="transition"></section>
+<!--Cards-->
+<section id="cards">
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="add.png">
+                    <h3>Addition and Subtraction</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p align="justify">Addition and subtraction is more than you think.
+                       They can be visualised as translations in a number world.
+                       It's more intresting than you think!
+                    </p>
+                    <div id="wrapper">
+                        <button onclick="window.location.href = '#';" type="button" class="btn btn-primary" >Teach it yourself</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="mul.png">
+                    <h3>Multiplication and Division</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p align="justify">Multiplication is not successive adding!!! They will really blow your mind.
+                        It's very intresting.
+                    </p>
+                    <div id="wrapper">
+                        <button onclick="window.location.href = '#';" type="button" class="btn btn-primary" >Teach it yourself</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="why_vec.png" >
+                        <h3>Why Vectors?</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p align="justify">Really, why do we need Vectors?They jus mess up the whole
+                            arena of maths and physics. Well, it's more subtle than that.
+                        </p>
+                        <div id="wrapper">
+                            <button onclick="window.location.href = '#';" type="button" class="btn btn-primary" >Teach it yourself</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<!--Smooth Scroll-->
+<script src="smooth-scroll.js"></script>
+<script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
